@@ -12,7 +12,7 @@ on:
 jobs:
   build-linux:
     name: build-linux
-    runs-on: ubuntu-latest
+    runs-on: arm64v8/ubuntu
 
     steps:
       - uses: actions/checkout@main
